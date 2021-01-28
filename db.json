@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "johnc",
+      "email": "jio@gmail.com",
+      "phone": "6547892147",
+      "department": "it ",
+      "designation": "manager 1",
+      "createdAt": "10-10-2020"
+    },
+    {
+      "name": "amal",
+      "email": "amal@gmail.com",
+      "phone": "123456789",
+      "department": "HR",
+      "designation": "HR",
+      "createdAt": "2021-01-27",
+      "id": "nEr0rBX"
+    },
+    {
+      "name": "john",
+      "email": "jo@gmail.com",
+      "phone": "1234567",
+      "department": "dev",
+      "designation": "developer",
+      "createdAt": "2021-01-25",
+      "id": "EMdAD3K"
+    },
+    {
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "phone": "1245387952",
+      "department": "it",
+      "designation": "hr",
+      "createdAt": "2021-01-26",
+      "id": "4W9JMh9"
+    }
+  ]
+}
