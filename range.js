@@ -1,4 +1,6 @@
-module.exports =(req,res,next) => {
-    res.header('Content-Range','posts 0-20/20')
+module.exports = (req, res, next) => {
+    res.header('Content-Range', 'users 0-20/20');
+    res.header('Content-Range', 'department 0-20/20');
+
     next()
 }

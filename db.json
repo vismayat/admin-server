@@ -1,13 +1,13 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": "1",
       "name": "johnc",
       "email": "jio@gmail.com",
       "phone": "6547892147",
       "department": "it ",
       "designation": "manager 1",
-      "createdAt": "10-10-2020"
+      "createdAt": "10-10-2020",
+      "userId": 1
     },
     {
       "name": "amal",
@@ -16,7 +16,8 @@
       "department": "HR",
       "designation": "HR",
       "createdAt": "2021-01-27",
-      "id": "nEr0rBX"
+      "id": "nEr0rBX",
+      "userId": 1
     },
     {
       "name": "john",
@@ -25,7 +26,8 @@
       "department": "dev",
       "designation": "developer",
       "createdAt": "2021-01-25",
-      "id": "EMdAD3K"
+      "id": "EMdAD3K",
+      "userId": 1
     },
     {
       "name": "raj",
@@ -34,7 +36,31 @@
       "department": "it",
       "designation": "hr",
       "createdAt": "2021-01-26",
-      "id": "4W9JMh9"
+      "id": "4W9JMh9",
+      "userId": 1
+    }
+  ],
+  "department": [{
+      "pictures": {
+        "rawFile": {
+          "path": "285305.jpg"
+        },
+        "src": "blob:http://localhost:3000/1f83c5e7-f9bb-45dd-bf67-af084172b596",
+        "title": "285305.jpg"
+      },
+      "id": "1",
+      "DepartmentName": "IT1"
+    },
+    {
+      "DepartmentName": "de",
+      "pictures": {
+        "rawFile": {
+          "path": "283693.jpg"
+        },
+        "src": "blob:http://localhost:3000/7f8677a0-14b4-409f-a9dc-8e6ef048c586",
+        "title": "283693.jpg"
+      },
+      "id": "xb1wT3H"
     }
   ]
 }

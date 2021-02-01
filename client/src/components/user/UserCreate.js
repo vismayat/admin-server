@@ -1,10 +1,12 @@
 import React from 'react';
-import { Create, SimpleForm, TextInput, DateInput } from 'react-admin';
+import { Create, SimpleForm, TextInput, DateInput, ReferenceInput, SelectInput } from 'react-admin';
 
 const UserCreate = (props) => {
     return (
         <Create title='Create Users' {...props}>
-            <SimpleForm>
+            <SimpleForm redirect="show">
+
+
                 <TextInput source='name' />
                 <TextInput source='email' />
                 <TextInput source='phone' />
